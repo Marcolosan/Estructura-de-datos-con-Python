@@ -1,0 +1,7 @@
+# 🚨🚨 NO CAMBIES EL CÓDIGO DE ABAJO 👇 🚨🚨
+altura_estudiantes = input('Introduce la altura de los estudianes\n').split()
+# con este bucle convertimos en int cada entrada
+for n in range(0, len(altura_estudiantes)):
+  altura_estudiantes[n] = int(altura_estudiantes[n])
+print(altura_estudiantes)
+# 🚨🚨 NO CAMBIES EL CÓDIGO DE ARRIBA 👆 🚨🚨
